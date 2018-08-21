@@ -4,8 +4,9 @@
   "description": "CLI for the most common tasks when using arangojs",
   "main": "index.js",
   "repository": "https://github.com/CatalinaBaincescu/arango-cli.git",
-  "author": "Stefania-Catalina Baincescu <stefania-catalina.baincescu@godaddy.com>",
+  "author": "Stefania-Catalina Baincescu <catalina.baincescu@gmail.com>",
   "license": "MIT",
+  "private": false,
   "bin": {
     "arango": "./lib/index.js"
   },
