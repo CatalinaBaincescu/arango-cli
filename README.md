@@ -8,16 +8,14 @@ npm install --save-dev arango-cli
 yarn add -D arango-cli
 ```
 
-To run any of the commands, you will need to provide the connection details for neo4j. To do this, create a `migrations` folder in the root of your project, and add a file called `config.js` which exports an object or a promise with the following structure:
+To run any of the commands, you will need to provide the connection details for arango. To do this, create a `migrations` folder in the root of your project, and add a file called `config.js` which exports an object or a promise with the following structure:
 
 ```js
 module.exports = {
   host: 'http://127.0.0.1:8529',
   dbName: 'dbName',
-  credentials: {
-    username: 'myUsername',
-    password: 'myPassword',
-  }
+  username: 'myUsername',
+  password: 'myPassword',
 };
 ```
 
