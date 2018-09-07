@@ -1,6 +1,6 @@
 {
   "name": "arango-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI for the most common tasks when using arangojs",
   "main": "index.js",
   "repository": "https://github.com/CatalinaBaincescu/arango-cli.git",
